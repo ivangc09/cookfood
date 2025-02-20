@@ -3,6 +3,8 @@ import NavBar from './components/NavBar.vue';
 import BackgroundCard from './components/BackgroundCard.vue';
 import LogoHeader from './components/LogoHeader.vue';
 import Card from './components/Card.vue';
+import FindCook from './components/FindCook.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 
@@ -25,11 +27,28 @@ import Card from './components/Card.vue';
 
   <div class="cards-container">
     <Card 
-    image-url="/platillo1.jpg"
-    description="Bestsellers"
+      image-url="/platillo1.jpg"
+      description="Bestsellers"
+    />
+
+    <Card
+      image-url="/offer.jpg"
+      description="This Week's Offers"
+    />
+    <Card
+      image-url="/platillo2.jpg"
+      description="Low Calorie Meals" 
     />
   </div>
 
+  <FindCook
+    image-url1="/cook.jpg"
+    image-url2="/chef.jpg"
+  />
+
+  <Footer
+  
+  />
   </main>
 </template>
 
@@ -39,6 +58,6 @@ import Card from './components/Card.vue';
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+  gap: 35px;
 }
 </style>

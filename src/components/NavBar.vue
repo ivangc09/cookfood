@@ -1,5 +1,17 @@
-<script setup>
+<script>
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+    import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
+    export default {
+        components: {
+            FontAwesomeIcon,
+        },
+        data(){
+            return{
+                searchIcon: faSearch,
+            }
+        }
+    };
 </script>
 
 <template>
@@ -15,6 +27,7 @@
         </li>
 
         <input type="text" placeholder="Search our Frozen Meals and Puddings">
+        </input>
     </nav>
 </template>
 
