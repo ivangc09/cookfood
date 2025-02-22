@@ -12,7 +12,7 @@ import Order from './components/Order.vue';
 <template>
   <header>
     <LogoHeader 
-      image-url="/logosvg.svg"
+
     />
   </header>
 
@@ -21,29 +21,28 @@ import Order from './components/Order.vue';
 
   </NavBar>
   <BackgroundCard 
-    image-url="/comida.jpg"
     title="Award-Winning Frozen Meals & Puddings"
     description="Home Delivery, free Click & Collect, Subscribe or visit your local COOK Shop or Stockist."
   />
 
   <div class="cards-container">
     <Card 
-      image-url="/platillo1.jpg"
+      image-url="/cookfood/platillo1.jpg"
       description="Bestsellers"
     />
 
     <Card
-      image-url="/offer.jpg"
+      image-url="/cookfood/offer.jpg"
       description="This Week's Offers"
     />
     <Card
-      image-url="/platillo2.jpg"
+      image-url="/cookfood/platillo2.jpg"
       description="Low Calorie Meals" 
     />
   </div>
 
   <Order
-    image-url1="/family.jpg"
+    image-url1="/cookfood/family.jpg"
   />
 
   <FindCook/>
