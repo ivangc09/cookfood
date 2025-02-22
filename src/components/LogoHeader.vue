@@ -23,9 +23,6 @@
             <img :src="imageUrl" alt="logo" />
         </div>
 
-        <div class="user-logo">
-            <FontAwesomeIcon :icon="userIcon" class="icon"/>
-        </div>
     </div>
 </template>
 

@@ -5,6 +5,7 @@ import LogoHeader from './components/LogoHeader.vue';
 import Card from './components/Card.vue';
 import FindCook from './components/FindCook.vue';
 import Footer from './components/Footer.vue';
+import Order from './components/Order.vue';
 
 </script>
 
@@ -40,6 +41,10 @@ import Footer from './components/Footer.vue';
       description="Low Calorie Meals" 
     />
   </div>
+
+  <Order
+    image-url1="/family.jpg"
+  />
 
   <FindCook
     image-url1="/cook.jpg"

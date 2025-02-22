@@ -16,15 +16,15 @@
 
 <template>
     <nav>
-        <li>
-            <ul>Main Meals</ul>
-            <ul>Entertaining</ul>
-            <ul>Puddings</ul>
-            <ul>Meal Boxes</ul>
-            <ul>Offers</ul>
-            <ul>Gifts</ul>
-            <ul>About us</ul>
-        </li>
+        <ul>
+            <li>Main Meals</li>
+            <li>Entertaining</li>
+            <li>Puddings</li>
+            <li>Meal Boxes</li>
+            <li>Offers</li>
+            <li>Gifts</li>
+            <li>About us</li>
+        </ul>
 
         <input type="text" placeholder="Search our Frozen Meals and Puddings">
         </input>
@@ -40,10 +40,13 @@ nav{
     background-color: #235556;
 }
 
-li{
-    display: flex; 
+ul{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
     color: white;
     font-family:'Fira Sans';
+    list-style: none;
 }
 
 input{
