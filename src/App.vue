@@ -46,10 +46,7 @@ import Order from './components/Order.vue';
     image-url1="/family.jpg"
   />
 
-  <FindCook
-    image-url1="/cook.jpg"
-    image-url2="/chef.jpg"
-  />
+  <FindCook/>
 
   <Footer
   

@@ -1,8 +1,8 @@
 <script>
     export default {
         props: {
-            imageUrl1: 'foodcook/cook.jpg',
-            imageUrl2: '/chef.jpg'
+            imageUrl1: '/cookfood/cook.jpg',
+            imageUrl2: '/cookfood/chef.jpg'
         }
     }
 </script>
