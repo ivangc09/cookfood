@@ -20,7 +20,8 @@ import Order from './components/Order.vue';
   <NavBar>
 
   </NavBar>
-  <BackgroundCard 
+  <BackgroundCard
+    imageUrl="/cookfood/comida.jpg"
     title="Award-Winning Frozen Meals & Puddings"
     description="Home Delivery, free Click & Collect, Subscribe or visit your local COOK Shop or Stockist."
   />
@@ -45,7 +46,10 @@ import Order from './components/Order.vue';
     image-url1="/cookfood/family.jpg"
   />
 
-  <FindCook/>
+  <FindCook
+    imageUrl1="/cookfood/cook.jpg"
+    imageUrl2="/cookfood/chef.jpg"
+  />
 
   <Footer
   
