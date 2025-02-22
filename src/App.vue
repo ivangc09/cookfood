@@ -12,7 +12,7 @@ import Order from './components/Order.vue';
 <template>
   <header>
     <LogoHeader 
-
+      imageUrl="/cookfood/logosvg.svg"
     />
   </header>
 

@@ -7,7 +7,7 @@
             FontAwesomeIcon,
         },
         props: {
-            imageUrl: '/cookfood/logosvg.svg',
+            imageUrl: String,
         },
         data(){
             return{
