@@ -14,7 +14,7 @@
 
 export default {
     props: {
-        imageUrl: String,
+        imageUrl: '/cookfood/comida.jpg',
         title: String,
         description:String
     }

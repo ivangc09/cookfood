@@ -1,7 +1,7 @@
 <script>
     export default{
         props: {
-            imageUrl: String,
+            imageUrl: '/cookfood/platillo1.jpg',
             description: String
         }
     }
